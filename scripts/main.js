@@ -3,9 +3,9 @@ const myImage = document.querySelector("img");
 myImage.addEventListener("click", () => {
     const mySrc = myImage.getAttribute("src");
     if (mySrc === "images/geese-2709757_1280.jpg") {
-        myImage.setAttribute("src", "images/il_794xN.5740777614_sflc.webp");
+        myImage.setAttribute("src", "/images/il_794xN.5740777614_sflc.webp");
     } else {
-        myImage.setAttribute("src", "images/geese-2709757_1280.jpg");
+        myImage.setAttribute("src", "/images/geese-2709757_1280.jpg");
     }
 });
 
